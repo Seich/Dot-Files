@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+add_column :${1:table}, :${2:column}, :${3:type}${4:, :default => ${5:1}}
+]]></content>
+    <tabTrigger>addcol</tabTrigger>
+    <scope>source.ruby</scope>
+</snippet>

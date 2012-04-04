@@ -1,0 +1,13 @@
+{
+	"color_scheme": "Packages/Color Scheme - Default/Birds of Paradise.tmTheme",
+	"default_line_ending": "unix",
+	"font_face": "consolas",
+	"font_options":
+	[
+	],
+	"font_size": 11.5,
+	"highlight_line": true,
+	"tab_size": 4,
+	"translate_tabs_to_spaces": true,
+	"word_wrap": false
+}

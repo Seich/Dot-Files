@@ -1,0 +1,12 @@
+{
+	"files":
+	{
+		"jquery": "http://code.jquery.com/jquery.min.js"
+	},
+	"packages":
+	{
+		"css-grid": "http://download.cssgrid.net/1140_CssGrid_2.zip",
+		"html5-boilerplate": "http://github.com/h5bp/html5-boilerplate/zipball/v2.0stripped",
+		"zurb-foundation": "http://foundation.zurb.com/files/foundation-download-2.1.5.zip"
+	}
+}

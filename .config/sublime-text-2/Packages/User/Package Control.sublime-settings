@@ -1,0 +1,24 @@
+{
+	"auto_upgrade_last_run": 1333524638,
+	"git_binary": "git",
+	"installed_packages":
+	[
+		"ElasticTabstops",
+		"Gist",
+		"HaXe",
+		"HTML5",
+		"LiveReload",
+		"Nettuts+ Fetch",
+		"Nodejs",
+		"Package Control",
+		"Prefixr",
+		"Rails Related Files",
+		"Shell Turtlestein",
+		"Simple Rails Navigator",
+		"sublime-github",
+		"SublimeCodeIntel",
+		"Terminal",
+		"ZenCoding",
+		"Zurb Foundation Snippets"
+	]
+}

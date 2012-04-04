@@ -1,0 +1,14 @@
+{
+	"close_windows_when_empty": false,
+	"ignored_packages":
+	[
+		"Vintage",
+		"Rails Related Files"
+	],
+	"ignored_words":
+	[
+		"Díaz"
+	],
+	"show_tab_close_buttons": true,
+	"theme": "Soda Dark.sublime-theme"
+}

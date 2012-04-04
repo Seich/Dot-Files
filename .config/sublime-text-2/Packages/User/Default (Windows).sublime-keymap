@@ -1,0 +1,10 @@
+[
+    { "keys": ["ctrl+shift+p"], "command": "show_overlay", "args": {"overlay": "goto"} },
+    { "keys": ["ctrl+p"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
+    { "keys": ["ctrl+shift+alt+p"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
+    { "keys": ["ctrl+alt+p"], "command": "prompt_select_project" },
+    { "keys": ["ctrl+b"], "command": "toggle_side_bar" },
+    { "keys": ["ctrl+alt+,"], "command": "fold" },
+    { "keys": ["ctrl+alt+."], "command": "unfold" },
+    { "keys": ["ctrl+shift+e"], "command": "open_folder_in_explorer" }
+]

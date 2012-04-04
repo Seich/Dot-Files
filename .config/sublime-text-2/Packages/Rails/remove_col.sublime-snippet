@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+remove_column :${1:table}, :${2:column}
+]]></content>
+    <tabTrigger>remcol</tabTrigger>
+    <scope>source.ruby</scope>
+</snippet>

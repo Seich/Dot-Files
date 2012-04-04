@@ -1,0 +1,8 @@
+[user]
+	name = Sergio Díaz
+	email = seich@martianwabbit.com
+[color]
+	ui = true
+	diff = always
+#[core]
+#	editor = subl -w

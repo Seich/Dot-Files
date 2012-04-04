@@ -1,0 +1,30 @@
+{
+	"close_windows_when_empty": false,
+	"color_scheme": "Packages/Color Scheme - Default/Dogs.tmTheme",
+	"default_line_ending": "unix",
+	"font_face": "consolas",
+	"font_options":
+	[
+	],
+	"font_size": 12.5,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"ZenCoding",
+		"HTML5",
+		"ElasticTabstops",
+		"Vintage",
+		"Nodejs",
+		"SublimeCodeIntel",
+		"Gist"
+	],
+	"ignored_words":
+	[
+		"Díaz"
+	],
+	"show_tab_close_buttons": true,
+	"tab_size": 4,
+	"theme": "Soda Dark.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"word_wrap": false
+}

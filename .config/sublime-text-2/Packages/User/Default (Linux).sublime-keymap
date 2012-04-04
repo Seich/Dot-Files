@@ -1,0 +1,20 @@
+[
+    { "keys": ["ctrl+shift+p"], "command": "show_overlay", "args": {"overlay": "goto"} },
+    { "keys": ["ctrl+p"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
+    { "keys": ["ctrl+shift+alt+p"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
+
+    { "keys": ["ctrl+alt+p"], "command": "prompt_select_project" },
+    { "keys": ["ctrl+b"], "command": "toggle_side_bar" },
+
+    { "keys": ["ctrl+alt+,"], "command": "fold" },
+    { "keys": ["ctrl+alt+."], "command": "unfold" },
+
+    { "keys": ["alt+ctrl+m"], "command": "list_rails_models" },
+    { "keys": ["alt+ctrl+c"], "command": "list_rails_controllers" },
+    { "keys": ["alt+ctrl+v"], "command": "list_rails_views" },
+    { "keys": ["alt+ctrl+i"], "command": "list_rails_javascripts" },
+    { "keys": ["alt+ctrl+y"], "command": "list_rails_stylesheets" },
+
+    { "keys": ["alt+up"], "command": "select_lines", "args": {"forward": false} },
+    { "keys": ["alt+down"], "command": "select_lines", "args": {"forward": true} }
+]
