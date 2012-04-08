@@ -7,8 +7,9 @@ set ofu=syntaxcomplete#Complete
 
 syntax on
 set background=dark
-let g:solarized_termcolors=256
-colorscheme solarized
+"let g:solarized_termcolors=256
+"colorscheme solarizedi
+colorscheme molokai
 
 
 "pathogen plugin loader thingy
@@ -22,7 +23,11 @@ let mapleader=","
 nmap <silent> <leader>ev :e $MYVIMRC<CR>
 nmap <silent> <leader>sv :so $MYVIMRC<CR>
 
+" Open nerd tree.
 nmap <silent> <leader>n :NERDTreeToggle<CR>
+
+" Clear find highlights when enter is pressed.
+nnoremap <CR> :noh<CR><CR>
 
 "store temporary files in a central spot
 set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
@@ -30,6 +35,9 @@ set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 
 "more stuff from nvie.
 set hidden
+
+set nobackup
+set noswapfile
 
 set nowrap
 set tabstop=4
@@ -87,6 +95,13 @@ nmap <silent> <A-Up> :wincmd k<CR>
 nmap <silent> <A-Down> :wincmd j<CR>
 nmap <silent> <A-Left> :wincmd h<CR>
 nmap <silent> <A-Right> :wincmd l<CR>
+
+"Allows using ctrl+arrows to navigate buffers
+nmap <silent> <C-Left> :bn<CR>
+nmap <silent> <C-Right> :bp<CR>
+
+"Allows you to use sudo after you open a read-only file.
+cmap w!! w !sudo tee % >/dev/null
 
 "Use the same symbols as textmate for tabstops and EOLs
 set listchars=tab:▸\ ,eol:¬,trail:-

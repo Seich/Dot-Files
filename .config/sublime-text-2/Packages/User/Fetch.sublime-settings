@@ -1,7 +1,8 @@
 {
 	"files":
 	{
-		"jquery": "http://code.jquery.com/jquery.min.js"
+		"jquery": "http://code.jquery.com/jquery.min.js",
+		"jQuery-Cycle": "http://malsup.github.com/jquery.cycle.lite.js"
 	},
 	"packages":
 	{
