@@ -1,10 +1,4 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =8
-let g:netrw_dirhist_1='/home/seich/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/date'
-let g:netrw_dirhist_2='/home/seich/Projects/manga'
-let g:netrw_dirhist_3='/home/seich/Projects/depot'
-let g:netrw_dirhist_4='/home/seich/Projects/ Voids/build'
-let g:netrw_dirhist_5='/home/seich'
-let g:netrw_dirhist_6='/home'
-let g:netrw_dirhist_7='/home/seich'
-let g:netrw_dirhist_8='/home/seich/.Wakfu'
+let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_1='/home/seich/Projects/martiansite'
+let g:netrw_dirhist_2='/home/seich/Projects/Laboratorios/Laboratorio 1'

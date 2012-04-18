@@ -1,5 +1,5 @@
 {
-    "cmd": ["lessc",  "-m", "$file"],
+    "cmd": ["lessc",  "-x", "$file", "$file.css"],
     "file_regex": "^(...*?):([0-9]*):?([0-9]*)",
     "selector": "source.css.less"
 }

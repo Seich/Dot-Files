@@ -50,8 +50,12 @@ export PATH=/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/u
 
 # Path
 PATH=$PATH:~/.bin
+
 # Mongo
 PATH=$PATH:~/.bin/mongo
+
+#Script tools
+PATH=$PATH:~/.bin/tools
 
 # Clojure
 export CLOJURE_EXT=~/.clojure

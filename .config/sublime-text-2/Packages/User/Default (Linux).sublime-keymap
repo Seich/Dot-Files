@@ -16,5 +16,14 @@
     { "keys": ["alt+ctrl+y"], "command": "list_rails_stylesheets" },
 
     { "keys": ["alt+up"], "command": "select_lines", "args": {"forward": false} },
-    { "keys": ["alt+down"], "command": "select_lines", "args": {"forward": true} }
+    { "keys": ["alt+down"], "command": "select_lines", "args": {"forward": true} },
+
+    { "keys": ["ctrl+space"], "command": "auto_complete" },
+    { "keys": ["ctrl+space"], "command": "replace_completion_with_auto_complete", "context":
+        [
+            { "key": "last_command", "operator": "equal", "operand": "insert_best_completion" },
+            { "key": "auto_complete_visible", "operator": "equal", "operand": false },
+            { "key": "setting.tab_completion", "operator": "equal", "operand": true }
+        ]
+    }
 ]
